@@ -25,7 +25,7 @@ export default function useError() {
       <Overlay onClick={handleError}>
         {err !== undefined && 
           <Modal headerText="Error">
-            <p>{toErrorWithMessage(err).message}</p>
+            <p data-testid='err-msg'>{toErrorWithMessage(err).message}</p>
           </Modal>
         }
       </Overlay>
