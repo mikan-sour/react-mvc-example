@@ -1,0 +1,9 @@
+@import '../../../styles/shared.scss';
+.layout {
+    background-color: #FEF5E8;
+    height: calc(100vh - 6rem);
+    header {
+        position: absolute;
+        top: 0
+    }
+}

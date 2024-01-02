@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.modalWrapper {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 30rem;
+  height: 12rem;
+  z-index: 1000;
+  justify-content: space-between;
+}
+.modalWrapper header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  background-color: #fbb040;
+  color: #fef5e8;
+}
+.modalWrapper header h3 {
+  margin-left: 1rem;
+}
+.modalWrapper section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  background-color: #fef5e8;
+  padding: 0 1rem;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,17 @@
+$primary-color: #fbb040;
+$secondary-color: #231f20;
+$text-color: #fef5e8;
+$global-font: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+  Arial, sans-serif;
+
+$overlay-z-index: 1000;
+
+@mixin flexSys {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  font-family: $global-font;
+}

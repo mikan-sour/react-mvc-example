@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.3);
+  backdrop-filter: blur(1px);
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.layout {
+  background-color: #FEF5E8;
+  height: calc(100vh - 6rem);
+}
+.layout header {
+  position: absolute;
+  top: 0;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,16 @@
+@import '../../../../styles/shared.scss';
+
+.homeWrapper {
+    @include flexSys();
+    height: 100vh;
+    width: 100%;
+    background-color: $secondary-color;
+    color: $text-color;
+
+    flex-direction: column;
+    justify-content: center;
+
+    pre {
+        padding: 1rem;
+    }
+}

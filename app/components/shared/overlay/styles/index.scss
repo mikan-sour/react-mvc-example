@@ -1,0 +1,18 @@
+@import "../../../../styles/shared.scss";
+
+$err-overlay: rgba(255, 0, 0, 0.3);
+
+.overlay {
+  @include flexSys;
+  width: 100vw;
+  height: 100vh;
+  background-color: $err-overlay;
+  backdrop-filter: blur(1px);
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: $overlay-z-index;
+}
