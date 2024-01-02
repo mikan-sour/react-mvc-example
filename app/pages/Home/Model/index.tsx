@@ -3,7 +3,7 @@ import { IHomeModel, TGenericPost } from "../types";
 import { useError, useFetch } from "~/hooks";
 import { getRandomValue } from "../Utils";
 
-class BlogPost {
+export class BlogPost {
   id: number;
   title: string;
   userId: number;
